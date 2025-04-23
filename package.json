@@ -1,7 +1,7 @@
 {
   "name": "pessoas-frontend",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "http://projeto-template-frontend.s3-website-us-east-1.amazonaws.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
