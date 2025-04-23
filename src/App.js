@@ -6,7 +6,7 @@ import PessoaForm from './components/PessoaForm';
 import Loading from './components/Loading';
 import './styles.css';
 
-const API_URL = 'http://localhost:3001/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
 
 function App() {
   const [pessoas, setPessoas] = useState([]);
